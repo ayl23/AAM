@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <style>
-    ul.nav li{
+  /*  ul.nav li{
         display: inline-block;
         padding-right: 10px;
     }
@@ -10,21 +10,43 @@
    background: #111;
    background-size: cover;
    color: white;
- }
+ }*/
 </style>
 <link rel="stylesheet" type = "text/css" href="stylefile.css">
+
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <header> AAML Group </header>
     <header right> Logo goes here </header right>
   </head>
   <ul>
     <li><a href="#">Home</a></li>
     <li><a href="#">News</a></li>
-    <li><a href="#">People</a></li>
-    <li><a href="#">Research</a></li>
+    <li> <a href="#"> <div class="dropdown">
+<button onclick="myFunction()" class="dropbtn">People</button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="#PDRAs">PDRAs</a>
+    <a href="#PhDs">PhDs</a>
+    <a href="#MPhil/MRes">MPhil/MRes</a>
+    <a href="#Visiting">Visiting</a>
+    <a href="#Alumni">Alumni</a>
+  </div>
+</div> </a></li>
+
+
     <li><a href="#">Publications</a></li>
-    <li><a href="#">Publications</a></li>
+    <li> <a href="#"> <div class="dropdown2">
+    <button onclick="myFunction()" class="dropbtn2">Research</button>
+     <div id="myDropdown2" class="dropdown-content2">
+  <a href="#Computational Simulations">Computational Simulations</a>
+  <a href="#MOF Synthesis">MOF Synthesis</a>
+  <a href="#Drug Delivery">Drug Delivery</a>
+  <a href="#Equipment">Equipment</a>
+  </div>
+  </div> </a></li>
+
     <li><a href="#">Outreach</a></li>
+    <li><a href="#">Work with us!</a></li>
     <li><a href="#">Contact</a></li>
   </ul>
   <body>
@@ -41,4 +63,28 @@
 <img src="cancerresearchlogo.png">
   </body>
 
+
+
+  <script>
+  /* When the user clicks on the button,
+  toggle between hiding and showing the dropdown content */
+  function myFunction() {
+      document.getElementById("myDropdown", "myDropdown2").classList.toggle("show");
+  }
+
+  // Close the dropdown if the user clicks outside of it
+  window.onclick = function(event) {
+    if (!event.target.matches('.dropbtn','.dropbtn2')) {
+
+      var dropdowns = document.getElementsByClassName("dropdown-content", "dropdown-content2");
+      var i;
+      for (i = 0; i < dropdowns.length; i++) {
+        var openDropdown = dropdowns[i];
+        if (openDropdown.classList.contains('show')) {
+          openDropdown.classList.remove('show');
+        }
+      }
+    }
+  }
+  </script>
 </html>

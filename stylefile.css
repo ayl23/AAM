@@ -1,4 +1,15 @@
 
+ul.nav li{
+    display: inline-block;
+    padding-right: 10px;
+}
+header {
+text-align: center;
+background: #111;
+background-size: cover;
+color: white;
+}
+
 ul {
   padding: 10px;
   background: rgba(0,0,0,0.5);
@@ -7,3 +18,70 @@ li {
   display: inline;
   padding: 0px 10px 0px 10px;
 }
+.dropbtn {
+    background-color: #111;
+    color: white;
+    padding: 10px;
+    font-size: 10px;
+    border: none;
+    cursor: pointer;
+}
+.dropbtn2 {
+    background-color: #111;
+    color: white;
+    padding: 10px;
+    font-size: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #111;
+}
+.dropbtn2:hover, .dropbtn2:focus {
+    background-color: #111;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown2 {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #111;
+    min-width: 10px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content2 {
+    display: none;
+    position: absolute;
+    background-color: #111;
+    min-width: 10px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    color: white;
+    padding: 10px 10px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content2 a {
+    color: white;
+    padding: 10px 10px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {background-color: #111;}
+.dropdown2 a:hover {background-color: #111;}
+.show {display: block;}
