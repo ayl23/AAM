@@ -1,24 +1,13 @@
 <!DOCTYPE html>
 <html>
-<style>
-  /*  ul.nav li{
-        display: inline-block;
-        padding-right: 10px;
-    }
-    header {
-   text-align: center;
-   background: #111;
-   background-size: cover;
-   color: white;
- }*/
-</style>
 <link rel="stylesheet" type = "text/css" href="stylefile.css">
 
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <header> AAML Group </header>
-    <header right> Logo goes here </header right>
+    <!--<header> AAML Group </header>
+    <header right> Logo goes here </header right>-->
   </head>
+<div>
   <ul>
     <li><a href="#">Home</a></li>
     <li><a href="#">News</a></li>
@@ -36,9 +25,9 @@
 
 
     <li><a href="#">Publications</a></li>
-    <li> <a href="#"> <div class="dropdown2">
-    <button onclick="myFunction()" class="dropbtn2">Research</button>
-     <div id="myDropdown2" class="dropdown-content2">
+    <li> <a href="#"> <div class="dropdown">
+    <button onclick="myFunction()" class="dropbtn">Research</button>
+     <div id="myDropdown" class="dropdown-content">
   <a href="#Computational Simulations">Computational Simulations</a>
   <a href="#MOF Synthesis">MOF Synthesis</a>
   <a href="#Drug Delivery">Drug Delivery</a>
@@ -50,11 +39,23 @@
     <li><a href="#">Work with us!</a></li>
     <li><a href="#">Contact</a></li>
   </ul>
+</div>
   <body>
-    <img src="ZIF8.png">
+    <img src="Logo2.png" alt="Logo" style="width:120px;height:60px" >
+
        <h1>Welcome to Adsorption & Advanced Materials Laboratory </h1>
        <h2>Department of Chemical Engineering & Biotechnology</h2>
        <h3>University of Cambridge</h3>
+
+<div id="sponsors">
+    <span id="RSC"><img src="royalsocietylogo.png" /></span>
+    <span id="ERC"><img src="erclogo.png"/></span>
+    <span id="Innovate"><img src="innovatelogo.png" /></span>
+    <span id="MedImmune"><img src="medimmunelogo.png" /></span>
+    <span id="CCDC"><img src="ccdclogo.png" /></span>
+    <span id="CancerResearch"><img src="cancerresearchlogo.png" /></span>
+</div>
+<!--
 <img src="Cambridgelogo.png">
 <img src="royalsocietylogo.png">
 <img src="erclogo.png">
@@ -62,7 +63,14 @@
 <img src="medimmunelogo.png">
 <img src="ccdclogo.png">
 <img src="cancerresearchlogo.png">
-  </body>
+
+-->
+</body>
+
+
+
+
+
 
 
 
@@ -70,14 +78,14 @@
   /* When the user clicks on the button,
   toggle between hiding and showing the dropdown content */
   function myFunction() {
-      document.getElementById("myDropdown", "myDropdown2").classList.toggle("show");
+      document.getElementById("myDropdown").classList.toggle("show");
   }
 
   // Close the dropdown if the user clicks outside of it
   window.onclick = function(event) {
-    if (!event.target.matches('.dropbtn','.dropbtn2')) {
+    if (!event.target.matches('.dropbtn')) {
 
-      var dropdowns = document.getElementsByClassName("dropdown-content", "dropdown-content2");
+      var dropdowns = document.getElementsByClassName("dropdown-content");
       var i;
       for (i = 0; i < dropdowns.length; i++) {
         var openDropdown = dropdowns[i];
