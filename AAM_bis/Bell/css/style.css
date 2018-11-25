@@ -857,6 +857,41 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: #23c2e1;
 }
 
+.mapouter {
+  padding-top: 100px;
+}
+
+.section-title-2 {
+  padding-top: 70px;
+}
+
+.intro-location {
+  padding-bottom: 50px;
+}
+
+.text-publications {
+  padding-top: 50px;
+}
+
+.subheader-publi {
+  padding: 50px;
+}
+
+.publication {
+  height: 290px;
+}
+
+.link-publi {
+padding-bottom: 20px;
+}
+
+.image-publi {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 10px;
+}
 /* ==================================================
   Footer Styling
   ================================================== */
