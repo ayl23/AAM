@@ -825,7 +825,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .link-publi {
-  padding-top: 10px;
   padding-bottom: 20px;
 }
 
@@ -835,6 +834,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     margin-right: auto;
     text-align: center;
     padding-top: 10px;
+    padding-bottom: 20px;
 }
 
 /* ==================================================
