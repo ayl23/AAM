@@ -91,7 +91,7 @@ a:hover {
   width: 42px;
   height: 42px;
   border-radius: 50%;
-  background: #bcb9b9;
+  background: #199EB8;
   color: #fff;
   text-align: center;
   font-size: 24px;
@@ -468,7 +468,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-family: "Raleway", Helvetica, Arial, sans-serif;
   font-weight: 500;
   color: #666;
-  border: 6px solid #333;
+  border: 6px solid #199EB8;
   border-radius: 50%;
   padding: 55px 25px 0 25px;
   position: relative;
@@ -525,12 +525,93 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 }
 
+/*.hero .container {
+
+
+}
+
+/* ==================================================
+  Features Styling
+  ================================================== */
+.features {
+  padding-bottom: 45px;
+}
+
+.features h2 {
+  color: #199EB8;
+}
+
+.feature-col {
+  display: table;
+  padding-bottom: 45px;
+}
+
+.feature-col > div > div {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.feature-col > div > div:last-child {
+  padding-left: 20px;
+}
+
+.feature-col .feature-icon {
+  width: 70px;
+  height: 70px;
+  margin-bottom: 15px;
+  background: #199EB8;
+  color: #fff;
+  font-size: 24px;
+  text-align: center;
+  line-height: 70px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.feature-col h3 {
+  color: #199EB8;
+}
+
+.feature-col p {
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #999;
+}
+
+/* ==================================================
+  Call-to-action Styling
+  ================================================== */
+.cta {
+  background-color: #199EB8;
+  padding: 25px 0;
+}
+
+.cta h2 {
+  margin-bottom: 5px;
+}
+
+.cta h2,
+.cta p {
+  color: #fff;
+}
+
+.cta p {
+  margin-bottom: 0;
+  opacity: .75;
+}
+
+.cta .btn-ghost {
+  position: relative;
+  top: 13px;
+}
+
+
 /* ==================================================
   News Styling
   ================================================== */
 .news {
   background-color: #fff;
-  padding-bottom: 50px;
+  padding-bottom: 0;
 }
 
 .news h2 {
@@ -741,12 +822,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   float: left;
 }
 
-#contact .info p {
-  padding: 0 0 10px 50px;
+.info p {
+  padding: 10px 0 10px 50px;
   line-height: 24px;
 }
 
-#contact .form #sendmessage {
+.form #sendmessage {
   color: #199EB8;
   border: 1px solid #199EB8;
   display: none;
@@ -756,7 +837,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 15px;
 }
 
-#contact .form #errormessage {
+.form #errormessage {
   color: red;
   display: none;
   border: 1px solid red;
@@ -766,26 +847,26 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 15px;
 }
 
-#contact .form #sendmessage.show, #contact .form #errormessage.show, #contact .form .show {
+.form #sendmessage.show, .form #errormessage.show, .form .show {
   display: block;
 }
 
-#contact .form .validation {
+.form .validation {
   color: red;
   display: none;
-  margin: 0 0 20px;
+  margin: 10px 0 20px;
   font-weight: 400;
   font-size: 13px;
 }
 
-#contact .form input, #contact .form textarea {
+.form input, .form textarea {
   border-radius: 0;
   -webkit-box-shadow: none;
   box-shadow: none;
 }
 
-#contact .form button[type="submit"] {
-  background: #199EB8;
+.form button[type="submit"] {
+  background: black;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -794,12 +875,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   transition: 0.4s;
 }
 
-#contact .form button[type="submit"]:hover {
-  background: #23c2e1;
-}
-
-.mapouter {
-  padding-top: 100px;
+.form button[type="submit"]:hover {
+  background: #fff;
 }
 
 .section-title-2 {
@@ -812,6 +889,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .text-publications {
   padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .subheader-publi {
@@ -819,11 +897,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .publication {
-  height: 290px;
+  padding-top: 50px;
 }
 
 .link-publi {
-padding-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 20px;
 }
 
 .image-publi {
@@ -833,6 +912,7 @@ padding-bottom: 20px;
     text-align: center;
     padding-top: 10px;
 }
+
 /* ==================================================
   Footer Styling
   ================================================== */
