@@ -46,13 +46,17 @@
 </head>
 
 <body>
+  <!-- Page Content
+    ================================================== -->
+  <!-- Hero -->
 
+  <!-- Header -->
   <header id="header">
     <div class="container">
 
       <nav id="nav-menu-container">
         <ul class="nav-menu">
-          <li><a href="#about">Home</a></li>
+          <li><a href="index.html">Home</a></li>
           <li><a href="#features">News</a></li>
           <li class="menu-has-children"><a href="">Research</a>
             <ul>
@@ -62,7 +66,7 @@
               <li><a href="drug.html">Drug Delivery</a></li>
               <li><a href="simulations.html">Computational Simulations</a></li>
             </ul>
-          <li class="menu-has-children"><a href="#">People</a>
+          <li class="menu-has-children"><a href="people.html">People</a>
             <ul>
               <li><a href="david.html">David Fairen-Jimenez</a></li>
               <li><a href="students.html">Current Students</a></li>
@@ -79,21 +83,64 @@
   </header>
   <!-- #header -->
 
-  <!-- About -->
+  <!-- News -->
 
-  <section class="about" id="about">
-    <div class="container text-center">
-      <h2>
-          Drug Delivery
-        </h2>
-
-      <p>The study of the mechanisms that control drug delivery in porous systems presents a critical importance in medicine, where nanotechnology has a fundamental impact to revolutionise cancer diagnosis and therapy. Indeed, a fundamental, yet unresolved, problem in many therapies including cancer treatment resides in the fact that many routinely used drugs present high-level concentration within the first minutes followed by low-levels in the next hours. Firstly, drugs suffer non-specific distribution through healthy and tumour cells. Secondly, to reach a tumour cell, drugs need to go across several barriers in the body that generally try to protect healthy cells from external aggression. Nowadays, the efficient delivery of a drug to a designated cell is a challenging bioengineering problem, which benefits extend not only to cancer treatment but also to neurodegenerative diseases such as Alzheimer's.<br /><br />Metal-organic frameworks (MOFs), one of the most exciting developments in recent porous materials science, have been proposed recently for drug delivery. One of their advantages over traditional porous materials is the possibility to tune their properties by choosing their building units, and therefore controlling the release of the therapeutic agent. Moreover, they can be functionalised with further molecules with high affinity to target tumour cells. Non- toxic and biodegradable nanoMOFs are suitable for the transport and controlled delivery of a large number of therapeutic agents, showing extremely high drug capacity and very long release time.
-      </p>
-
+  <section class="news" id="news">
+    <div class="container">
+      <h2 class="text-center">
+          News
+      </h2>
+<!--News: Tian leaving and having a baby -->
+      <div class="row">
+        <div class="col-sm-3 col-xs-6">
+          <div class="card card-block">
+            <img alt="" class="team-img" src="img/baby.jpg">
+          </div>
+        </div>
+        <div class="col-sm-8" "col-xs-12">
+          <p>This month we say farewell to Dr. Tian Tian.
+            Tian has been with us for the past 5 years, time during which he has completed his PhD and co-founded Immaterial labs.
+            Tian and his wife are also expecting a little boy. We wish them luck and courage!
+          </p>
+        </div>
+      </div>
+    </section>
+<!--News: Peyman leaving -->
+<section class="news" id="news_alt">
+      <div class="container">
+        <div class="row">
+        <div class="col-sm-3 col-xs-6">
+          <div class="card card-block">
+            <img alt="" class="team-img" src="img/sheffield.png">
+            </a>
+          </div>
+        </div>
+        <div class="col-sm-8" "col-xs-12">
+          <p>Farewell to PDRA Dr. Peyman Z. Moghadam , who has been a part of our lab for the past 3 years. Peyman will be taking on
+            the new and exciting role of Lecturer at University of Sheffield.
+          </p>
+        </div>
+      </div>
+    </div>
+<!--News: Raymond leaving -->
+<section class="news" id="news">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-3 col-xs-6">
+          <div class="card card-block">
+            <img alt="" class="team-img" src="img/kaist.png">
+            </a>
+          </div>
+        </div>
+        <div class="col-sm-8" "col-xs-12">
+          <p>This month we say farewell to visiting student Raymond from KAIST.
+            Raymond has been with us for the past 6 months working on computational simulations of MOFs for drug delivery applications.
+          </p>
+        </div>
+      </div>
     </div>
   </section>
-
-
+  <!-- /Team -->
   <!-- @component: footer -->
 
   <footer class="site-footer">
@@ -103,37 +150,44 @@
 
           <div class="col-lg-6 col-xs-12 text-lg-left text-center">
             <div class="credits">
+              <!--
+                All the links in the footer should remain intact.
+                You can delete the links only if you purchased the pro version.
+                Licensing information: https://bootstrapmade.com/license/
+                Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Bell
+              -->
              Designed by Diana, Marta and Aurelia.
             </div>
           </div>
 
-          <div class="col-lg-6 col-xs-12 text-lg-right text-center">
-            <ul class="list-inline">
-              <li class="list-inline-item">
-                <a href="index.html">Home</a>
-              </li>
 
-              <li class="list-inline-item">
-                <a href="#about">News</a>
-              </li>
+                    <div class="col-lg-6 col-xs-12 text-lg-right text-center">
+                      <ul class="list-inline">
+                        <li class="list-inline-item">
+                          <a href="index.html">Home</a>
+                        </li>
 
-              <li class="list-inline-item">
-                <a href="#features">Research</a>
-              </li>
+                        <li class="list-inline-item">
+                          <a href="#about">News</a>
+                        </li>
 
-              <li class="list-inline-item">
-                <a href="#portfolio">People</a>
-              </li>
+                        <li class="list-inline-item">
+                          <a href="#features">Research</a>
+                        </li>
 
-              <li class="list-inline-item">
-                <a href="#team">Publications</a>
-              </li>
+                        <li class="list-inline-item">
+                          <a href="#portfolio">People</a>
+                        </li>
 
-              <li class="list-inline-item">
-                <a href="#contact">Contact</a>
-              </li>
-            </ul>
-          </div>
+                        <li class="list-inline-item">
+                          <a href="#team">Publications</a>
+                        </li>
+
+                        <li class="list-inline-item">
+                          <a href="#contact">Contact</a>
+                        </li>
+                      </ul>
+                    </div>
 
         </div>
       </div>

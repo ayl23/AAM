@@ -605,6 +605,33 @@ body.mobile-nav-active #mobile-nav-toggle {
   top: 13px;
 }
 
+
+/* ==================================================
+  News Styling
+  ================================================== */
+.news {
+  background-color: #fff;
+  padding-bottom: 0;
+}
+
+.news h2 {
+  color: #333;
+  margin-bottom: 25px;
+}
+
+.news .col-sm-3 {
+  padding: 0;
+}
+
+.news .card img {
+  width: 100%;
+  height: 100%;
+}
+
+/*#news_alt {
+  background-color: #dadada;
+  padding-bottom: 0;
+}*/
 /* ==================================================
   Portfolio Styling
   ================================================== */
