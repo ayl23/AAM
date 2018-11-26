@@ -91,7 +91,7 @@ a:hover {
   width: 42px;
   height: 42px;
   border-radius: 50%;
-  background: #199EB8;
+  background: #bcb9b9;
   color: #fff;
   text-align: center;
   font-size: 24px;
@@ -531,87 +531,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 /* ==================================================
-  Features Styling
-  ================================================== */
-.features {
-  padding-bottom: 45px;
-}
-
-.features h2 {
-  color: #199EB8;
-}
-
-.feature-col {
-  display: table;
-  padding-bottom: 45px;
-}
-
-.feature-col > div > div {
-  display: table-cell;
-  vertical-align: middle;
-}
-
-.feature-col > div > div:last-child {
-  padding-left: 20px;
-}
-
-.feature-col .feature-icon {
-  width: 70px;
-  height: 70px;
-  margin-bottom: 15px;
-  background: #199EB8;
-  color: #fff;
-  font-size: 24px;
-  text-align: center;
-  line-height: 70px;
-  border-radius: 50%;
-  display: inline-block;
-}
-
-.feature-col h3 {
-  color: #199EB8;
-}
-
-.feature-col p {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  color: #999;
-}
-
-/* ==================================================
-  Call-to-action Styling
-  ================================================== */
-.cta {
-  background-color: #199EB8;
-  padding: 25px 0;
-}
-
-.cta h2 {
-  margin-bottom: 5px;
-}
-
-.cta h2,
-.cta p {
-  color: #fff;
-}
-
-.cta p {
-  margin-bottom: 0;
-  opacity: .75;
-}
-
-.cta .btn-ghost {
-  position: relative;
-  top: 13px;
-}
-
-
-/* ==================================================
   News Styling
   ================================================== */
 .news {
   background-color: #fff;
-  padding-bottom: 0;
+  padding-bottom: 50px;
 }
 
 .news h2 {
