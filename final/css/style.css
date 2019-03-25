@@ -886,7 +886,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 767px) {
   .block {
     padding-left: 30px;
     padding-right: 30px;
